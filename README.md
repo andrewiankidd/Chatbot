@@ -65,3 +65,7 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Screenshot
+[https://andrewiankidd.github.io/chatbot/](https://andrewiankidd.github.io/chatbot/)
+[![Screencap of project index page displayed in browser](assets/img/screencap.png)](https://andrewiankidd.github.io/chatbot/)
