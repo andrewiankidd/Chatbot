@@ -1,0 +1,46 @@
+{
+  "name": "dummybot",
+  "version": "0.0.1",
+  "description": "WIP dummy Chatbot",
+  "main": "src/app.ts",
+  "scripts": {
+    "serve": "nodemon",
+    "build": "npm run build:css && npm run build:app",
+    "build:app": "tsc",
+    "build:css": "node-sass -o ./dist/static/css ./src/",
+    "service": "",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AKidd",
+  "license": "UNLICENSED",
+  "private": "true",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "langchain": "0.0.203",
+    "node-sass-middleware": "^1.1.0",
+    "showdown": "^2.1.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^4.17.1",
+    "@types/node": "^20.10.4",
+    "@types/node-sass": "^4.11.7",
+    "@types/node-sass-middleware": "0.0.35",
+    "@types/showdown": "^2.0.6",
+    "@types/ws": "^8.5.10",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "eslint": "^8.55.0",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.2",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  }
+}

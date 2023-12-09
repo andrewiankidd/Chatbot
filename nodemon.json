@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "scss, html, js",
+    "ignore": [],
+    "exec": "tsx watch ./src/app.ts"
+  }
